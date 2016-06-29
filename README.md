@@ -31,5 +31,5 @@ Now, let's get started!
 ## Projects
 
 - [Building a Super Simple Chat Room](01-chatroom) 
-- [Adding the 3rd party API - Enabling Giphy commands](01a-giphy)
-- ​
+- [Adding the 3rd party API - Enabling Giphy commands](01a-chatroom-giphy)
+- TBD
