@@ -1,0 +1,219 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Roboto Light", "Segoe UI Web Light", "Segoe UI Light", "Segoe UI Web Regular", "Segoe UI", Helvetica, Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #fff;
+  border-top: 4px solid #ce1126;
+  border-bottom-color: #eee;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 2.4em;
+  line-height: 1.6em;
+  text-align: center;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+input[type=text],
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #ddd;
+  color: #333;
+  font-size: 1em;
+  padding: .7em 1em;
+  margin-bottom: 1em;
+  position: relative;
+  top: 15px;
+}
+
+input[type=text] {
+  margin-left: 85px;
+  width: calc(100% - 225px);
+}
+
+button {
+  background: #e6e6e6;
+  text-shadow: 0 1px 0 #f3f3f3;
+  margin: .5em 0 2em 0;
+  width: 120px;
+}
+
+#main {
+  margin: 2em 1em 1em;
+}
+
+#main > h2 {
+  font-weight: normal;
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
+#main > p {
+  color: #ce1126;
+}
+
+.chat {
+  height: 85px;
+  position: relative;
+}
+
+.chat i {
+  font-size: 75px;
+  position: absolute;
+}
+
+.output p {
+  font-size: 1.2em;
+  margin-left: 0.6em;
+  position: relative;
+}
+
+.output i {
+  font-size: 40px;
+  position: absolute;
+  top: -5px;
+}
+
+.output i + span {
+  position: relative;
+  margin-left: 40px;
+}
+/* Font Icons */
+
+[class^="face"],
+[class*=" face"] {
+  font-family: 'Material Icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.face-1:before {
+  content: "face";
+}
+
+.face-2:before {
+  content: "favorite";
+}
+
+.face-3:before {
+  content: "adb";
+}
+
+.face-4:before {
+  content: "cake";
+}
+
+.face-5:before {
+  content: "whatshot";
+}
+
+.face-6:before {
+  content: "invert_colors";
+}
+
+.face-7:before {
+  content: "stars";
+}
+
+.face-8:before {
+  content: "mood_bad";
+}
+
+.face-9:before {
+  content: "mood";
+}
+
+.face-10:before {
+  content: "star";
+}
+
+.face-11:before {
+  content: "directions_bike";
+}
+
+.face-12:before {
+  content: "star_half";
+}
+
+.face-13:before {
+  content: "school";
+}
+
+.color-1 {
+  color: #393b79;
+}
+
+.color-2 {
+  color: #6b6ecf;
+}
+
+.color-3 {
+  color: #637939;
+}
+
+.color-4 {
+  color: #b5cf6b;
+}
+
+.color-5 {
+  color: #8c6d31;
+}
+
+.color-6 {
+  color: #e7ba52;
+}
+
+.color-7 {
+  color: #843c39;
+}
+
+.color-8 {
+  color: #d6616b;
+}
+
+.color-9 {
+  color: #7b4173;
+}
+
+.color-10 {
+  color: #ce6dbd;
+}
