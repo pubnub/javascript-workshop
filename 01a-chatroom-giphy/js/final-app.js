@@ -13,8 +13,8 @@
 
   // Hey, when you fork this and try by yourself, please use your own keys! Get your keys at http://admin.pubnub.com
   var pubnub = PUBNUB.init({
-    subscribe_key: 'sub-c-182105ac-0001-11e5-8fd4-0619f8945a4f',
-    publish_key: 'pub-c-ce04f67b-0f26-43ce-8be2-192e9821d1a3'
+    subscribe_key: 'sub-c-00ac33a4-3e28-11e6-971e-02ee2ddab7fe',
+    publish_key: 'pub-c-1a5f74ed-f634-47eb-a1b9-53d98390c644'
   });
 
 

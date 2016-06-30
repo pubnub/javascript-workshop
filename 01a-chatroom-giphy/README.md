@@ -6,6 +6,22 @@ If you are using Slack or similar chat apps, you may have used the "slash comman
 
 Let's get started with [Giphy API](https://api.giphy.com/)!
 
+### Demo
+
+Try it at: [http://localhost:8001/01a-chatroom-giphy/](http://localhost:8001/01a-chatroom-giphy/)
+
+
+
+When you're ready to start coding, in your **index.html**, change the line 37 to:
+
+```html
+<script src="js/app.js"></script>
+```
+
+where **app.js** is the file you are going to code along with the workshop.
+
+
+
 ## Giphy REST API
 
 Create a funcition to call the REST API.
@@ -32,6 +48,26 @@ function getGiphy(q) {
 ```
 
 We are using the standard `XMLHttpRequest` for this AJAX call. When it is successful, it result in a JSON response, so you need to parse it to get a gif animation URL.
+
+
+
+### Publishing the Result GIF Image
+
+```javascript
+function publishGif(gif) {
+  pubnub.publish({
+    channel: channel,
+    message: {
+      avatar: avatar.className,
+      gif: gif
+    }
+  });
+}
+```
+
+Publish the GIF, just like publishing a chat message.
+
+Badically with PubNub, you can send any JS object (or JSON), as long as the size is small enough. (> 32KB).
 
 
 

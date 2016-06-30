@@ -2,13 +2,35 @@
 
 In this workshop, you are going to use ES5 Vanilla JavaScript.
 
-As your first web app, let's create a simple chat app- this app is an anonymous chat room and each user is assigned a random name, such as "blue-tiger".
+As your first web app, let's create a simple chat app- this app is an anonymous chat room and each user is assigned a random avatar.
 
 Let's get started.
 
+### Demo
+
+Before you started coding, try running the index.html on a browser. You can run it locally by:
+
+```bash
+$ python -m SimpleHTTPServer 8001
+```
+
+then go to [http://localhost:8001/01-chatroom/](http://localhost:8001/01-chatroom/)
+
+
+
+When you're ready to start coding, in your **index.html**, change the line 34 to:
+
+```html
+<script src="js/app.js"></script>
+```
+
+where **app.js** is the file you are going to code along with the workshop.
+
+
+
 ## Installation of PubNub
 
-In your **index.html**, if you're working locally, include [the latest JavaScript version](https://www.pubnub.com/docs/web-javascript/pubnub-javascript-sdk):
+In your **index.html**, include [the latest JavaScript version](https://www.pubnub.com/docs/web-javascript/pubnub-javascript-sdk):
 
 `<script src="//cdn.pubnub.com/pubnub-3.15.2.min.js"></script>`
 
@@ -20,10 +42,12 @@ In **app.js**, create an instance of the object and initializing using your API 
 
 ```javascript
 var pubnub = PUBNUB.init({
-  subscribe_key: 'sub-c-182105ac-...', // your sub key
-  publish_key: 'pub-c-ce04f67b-...' // your pub key
+  subscribe_key: 'sub-c-182105ac-...',
+  publish_key: 'pub-c-ce04f67b-...'
 });
 ```
+
+If you are taking this course in a class room with a bunch of other students, let's use the keys provided in **app.js** already, so you can actually use your final app to chat with your classmates! Otherwise, use your own API keys.
 
 and create a channel name. it can be almost any arbitary string. (there are some restrictions apply!)
 
@@ -37,7 +61,9 @@ var channel = 'simple-chat';
 
 When the app is loaded, the user's avatar is assigned randomly.
 
-The avatar is a combination of a font-icon and a color. We generate a string containing `face-`and `color` with random numbers. So the generated string will be something like, `face-5 color-2`.
+The avatar is a combination of a font-icon and a color. We generate a string containing `face-`and `color-` with random numbers. So the generated string will be something like, `face-5 color-2`.
+
+![random avatars](../images/avatars.png "Random avatars")
 
 Here, we are actually using this randomized string as a class name in a DOM to insert a font icon in a cretain color, so we need to first set up [CSS](css/styles.css) and import Material Icons (font icon). Link it in your HTML file.
 
@@ -206,6 +232,8 @@ To enable the features, you need to configure in your [PubNub Admin Console](htt
 First, click the **Keyset**, then, enable these features:
 
 ![Add-ons](../images/add-ons.png "Add-ons")
+
+and press **Save**.
 
 
 

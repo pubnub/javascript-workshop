@@ -15,8 +15,8 @@
 
   // Initialize
   var pubnub = PUBNUB.init({
-    subscribe_key: '',
-    publish_key: ''
+    subscribe_key: 'sub-c-00ac33a4-3e28-11e6-971e-02ee2ddab7fe',
+    publish_key: 'pub-c-1a5f74ed-f634-47eb-a1b9-53d98390c644'
   });
 
   // Subscribe
