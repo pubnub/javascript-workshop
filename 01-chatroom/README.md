@@ -15,6 +15,8 @@ $ cd javascript-workshop
 $ python -m SimpleHTTPServer 8001
 ```
 
+*Note: Windows users need to install python first*
+
 then go to [http://localhost:8001/01-chatroom/](http://localhost:8001/01-chatroom/)
 
 
