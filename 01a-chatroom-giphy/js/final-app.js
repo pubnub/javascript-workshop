@@ -1,5 +1,6 @@
 (function() {
-
+  'use strict';
+  
   var output = document.querySelector('.output'),
     input = document.querySelector('input'),
     button = document.querySelector('button'),

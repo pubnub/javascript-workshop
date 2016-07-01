@@ -149,7 +149,7 @@ function initSliders() {
     channel: channel,
     count: 1,
     callback: function(m) {
-      resetSliders(m[0]);
+      resetSliders(m[0][0]);
     }
   });
 }

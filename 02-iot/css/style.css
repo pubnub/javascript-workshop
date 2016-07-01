@@ -31,8 +31,7 @@ body {
 	margin: 0;
 	font-family: "Helvetica Neue", "Roboto Light", "Segoe UI Web Light", "Segoe UI Light", "Segoe UI Web Regular", "Segoe UI", Helvetica, Arial, sans-serif; 
 	color: #fff;
-	background: #1c2831 url(../media/bg.png) 0 0 no-repeat;
-	background-size: 800px;
+	background: #1c2831;
 }
 a {
 	color: #ce1126;
@@ -93,15 +92,6 @@ header img {
 
 /* UI component styles */
 
-.pubnub {
-    width: 80px;
-    height: 25px;
-    opacity: 0.9;
-    background: url(../media/pubnub.png) 0 0 no-repeat;
-    background-size: 100%;
-    position: relative;
-    left: 150px;
-}
 .preference {
 	margin-bottom: 2em;
 	border: 1px solid rgba(192, 192, 192, 0.15);

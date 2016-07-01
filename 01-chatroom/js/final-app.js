@@ -1,4 +1,5 @@
 (function() {
+  'use strict';
 
   var output = document.querySelector('.output'),
     input = document.querySelector('input'),
@@ -28,7 +29,7 @@
     connect: fetchOldMessages
   });
 
-  input.addEventListener('keyup', function(e) { console.log(e);
+  input.addEventListener('keyup', function(e) {
     (e.keyCode || e.charCode) === 13 && send();
   }, false);
  

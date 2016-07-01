@@ -1,8 +1,12 @@
-# PubNub JavaScript Workshop
+# Workshop: Building Realtime Apps with PubNub JavaScrpt SDK
 
-Step-by-step guide of building a realtime web applications using PubNub global data stream network.
+This provide step-by-step tutorials of building a realtime web applications using PubNub global data stream network.
 
 [PubNub](https://pubnub.com) is a globally distributed data stream network that allows you to build real-time applications easily. Its core feature, pub/sub, sends and receives data between multiple users simultaneously.
+
+You will be learning how to wite simple applications using PubNub JavaScript SDK 3.x.
+
+🍄 [Presentation Link]()
 
 ## Getting Started with PubNub
 
@@ -48,4 +52,28 @@ Now, let's get started!
 
 ## Learn More
 
+### Docs
+
 We have many tutorials on PubNub.com and elsewhere!
+
+- [PubNub JavaScript SDK](https://www.pubnub.com/docs/web-javascript/pubnub-javascript-sdk) - Getting started guide and tutorials
+- [Getting Started Guide](https://www.pubnub.com/docs/getting-started-guides/pubnub-publish-subscribe) - Walk through every API 
+
+### Videos
+
+- [University of PubNub](https://www.pubnub.com/developers/university/) - Video lecture series
+- More on [Vimeo](https://vimeo.com/pubnub)
+
+### More Tutorials
+
+- [Lots of tutorials here!!!](https://www.pubnub.com/blog/category/demos-tutorials-and-how-tos/)
+
+#### AngularJS 
+
+- [Getting Started](https://www.pubnub.com/developers/angularjs/)
+- [PubNub AngularJS SDK](https://www.pubnub.com/docs/angularjs-javascript/pubnub-javascript-sdk)
+
+#### React.js
+
+- [Tutorials on PubNub Blog](https://www.pubnub.com/blog/author/rangle-io-staff/)
+- [Building a Collaborative Web App With PubNub, React.js, and ES6](http://code.tutsplus.com/tutorials/building-a-collaborative-web-app-with-pubnub-reactjs-and-es6--cms-26565) on Tuts+ Code

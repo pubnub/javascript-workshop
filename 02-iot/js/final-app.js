@@ -1,4 +1,5 @@
 (function(){
+  'use strict';
 
   var pubnub = PUBNUB.init({
     subscribe_key: 'sub-c-00ac33a4-3e28-11e6-971e-02ee2ddab7fe',
@@ -34,7 +35,7 @@
       channel: channel,
       count: 1,
       callback: function(m) {
-        resetSliders(messages[0]);
+        resetSliders(m[0][0]);
       }
     });
   }
