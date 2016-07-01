@@ -11,6 +11,7 @@ Let's get started.
 Before you started coding, try running the index.html on a browser. You can run it locally by:
 
 ```bash
+$ cd javascript-workshop
 $ python -m SimpleHTTPServer 8001
 ```
 
@@ -32,7 +33,9 @@ where **app.js** is the file you are going to code along with the workshop.
 
 In your **index.html**, include [the latest JavaScript version](https://www.pubnub.com/docs/web-javascript/pubnub-javascript-sdk):
 
-`<script src="//cdn.pubnub.com/pubnub-3.15.2.min.js"></script>`
+```html
+<script src="//cdn.pubnub.com/pubnub-3.x.x.min.js"></script>
+```
 
 
 
@@ -47,11 +50,11 @@ var pubnub = PUBNUB.init({
 });
 ```
 
-If you are taking this course in a class room with a bunch of other students, let's use the keys provided in **app.js** already, so you can actually use your final app to chat with your classmates! Otherwise, use your own API keys.
+If you are taking this course in a class room with classmates, let's use the keys provided in **app.js** already, so you can actually use your final app to chat with all of your classmates! Otherwise, use your own API keys.
 
 and create a channel name. it can be almost any arbitary string. (there are some restrictions apply!)
 
-```javescript
+```javascript
 var channel = 'simple-chat';
 ```
 
@@ -94,9 +97,9 @@ The selector, `[class^="face"]` selects any element with a class that start from
 
 Assign the randomized string as a class name to the avatar DOM. 
 
-(Note: Using `<i>` tag for the glyph seems to non-semantic, but it actually is to represent this is an text, also an icon. `<i>` does *not* always mean "Italic". For semantic italic text, use `<em>`.)
+Here, use `<i>` tag for the glyph. It may seem non-semantic, but it is not a bad idea to use one to represent a text icon. (For semantic italic text, use `<em>`.)
 
-```hrml
+```html
  <i class="avatar" class=""></i>
 ```
 
@@ -243,15 +246,15 @@ Modify your subscribe block, and add `presence` param:
 
 ```javascript
 p.subscribe({
-    channel: channel,
-    callback: function(m) {
-      output.innerHTML = '<p><i class="' + m.avatar + '"></i><span>' + m.text.replace(/[<>]/ig, '') + '</span></p>' + output.innerHTML;
-    },
-    // Adding presence
-    presence: function(m) {
-      presence.textContent = 'Occupancy: ' + m.occupancy;
-    }
-  });
+  channel: channel,
+  callback: function(m) {
+    output.innerHTML = '<p><i class="' + m.avatar + '"></i><span>' + m.text.replace(/[<>]/ig, '') + '</span></p>' + output.innerHTML;
+  },
+  // Adding Presence
+  presence: function(m) {
+    presence.textContent = 'Occupancy: ' + m.occupancy;
+  }
+});
 ```
 
 
@@ -294,7 +297,7 @@ pubnub.subscribe({
 
 
 
-Ta-da!!!
+Ta-da!!! Let's chat with your classmates!
 
 ![Chat app](../images/chat-app.png "Super Duper Simple Chat")
 

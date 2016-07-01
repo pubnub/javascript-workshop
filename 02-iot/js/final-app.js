@@ -33,11 +33,8 @@
     pubnub.history({
       channel: channel,
       count: 1,
-      callback: function(messages) {
-        messages[0].forEach(function(m) {
-          console.log(m);
-          resetSliders(m);
-        });
+      callback: function(m) {
+        resetSliders(messages[0]);
       }
     });
   }

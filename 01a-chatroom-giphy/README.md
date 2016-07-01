@@ -1,4 +1,4 @@
-# 1a. Adding Giphy Command Feature to Your Chat App
+# 1a. Adding the Giphy Command Feature to Your Chat App
 
 Now, you are adding the 3rd party API into your app to make it more interesting.
 

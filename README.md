@@ -42,4 +42,10 @@ Now, let's get started!
 - 1a - [Adding the 3rd party API - Enabling Giphy commands](01a-chatroom-giphy)
 
 
-- 2 - [Internet of Things "Poor man's HUE"](02-iot)
+- 2 - [Internet of Things: Creating a HUE Clone"](02-iot)
+
+
+
+## Learn More
+
+We have many tutorials on PubNub.com and elsewhere!
