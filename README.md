@@ -1,10 +1,10 @@
 # Workshop: Building Realtime Apps with PubNub JavaScrpt SDK
 
-This provide step-by-step tutorials of building a realtime web applications using PubNub global data stream network.
+This provides step-by-step tutorials of building realtime web applications using PubNub global data stream network.
 
 [PubNub](https://pubnub.com) is a globally distributed data stream network that allows you to build real-time applications easily. Its core feature, pub/sub, sends and receives data between multiple users simultaneously.
 
-You will be learning how to wite simple applications using PubNub JavaScript SDK 3.x.
+You will be learning how to write simple applications using PubNub JavaScript SDK 3.x.
 
 🍄 [Presentation Link]()
 
@@ -12,11 +12,11 @@ You will be learning how to wite simple applications using PubNub JavaScript SDK
 
 Sign up [PubNub](https://www.pubnub.com/get-started/) to get your own API keys.
 
-Once you signed up, you need to get your own keys to get started:
+Once you are signed up, you need to get your own keys to get started:
 
 1. Go to [admin.pubnub.com](https://admin.pubnub.com)
 2. Create a new app by entering an app name (e.g. chat-app), and press **Create a New App**
-3. Once the app is created, click the app from the dashborad. Now you should see your publish and subscribe keys.
+3. Once the app is created, click the app from the dashboard. Now you should see your publish and subscribe keys.
 
 ![Create a new app with PubNub](images/pubnub-new-app.png "Create a new app with PubNub")
 
