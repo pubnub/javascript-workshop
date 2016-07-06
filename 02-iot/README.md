@@ -2,7 +2,7 @@
 
 #  2. Internet of Things: HUE Clone
 
-PubNub is not just for chat apps but has so many use cases- one of the popular use cases is for IoT (Internet of Things) applications. Companies like Insteon and LIFX are using the PubNub network for theor smart home devices including smart light bulbs. 
+PubNub is not just for chat apps, but has so many other use cases- one of the popular use cases is for IoT (Internet of Things) applications.(More on that <a href = "http://www.forbes.com/sites/jacobmorgan/2014/05/13/simple-explanation-internet-things-that-anyone-can-understand/#5eaaef2b6828">here.</a> Companies like Insteon and LIFX are using the PubNub network for their smart home devices including smart light bulbs. 
 
 Here, you are going to create a remote control to change the color of an LED, a dumbed-down version of Philips HUE.
 
@@ -51,7 +51,7 @@ var pubnub = PUBNUB.init({
 });
 ```
 
-If you are taking this course in a class room with a bunch of other students, let's use the keys provided in **app.js** already, so you can actually use your final app to chat with your classmates! Otherwise, use your own API keys.
+If you are taking this course in a classroom with a bunch of other students, let's use the keys provided in **app.js** already, so you can actually use your final app to chat with your classmates! Otherwise, use your own API keys.
 
 and create a channel name. it can be almost any arbitary string. (there are some restrictions apply!)
 
@@ -171,7 +171,7 @@ I am not covering this in this workshop, but if you are interested, look at the 
 
 You may wonder about the IoT security-
 
-In the reality, you need to write more code to build secure IoT systems. PubNub does offer AES & TLS/SSL data encryptions, also Access Manager so you can control users and devices.
+In reality, you need to write more code to build secure IoT systems. PubNub does offer AES & TLS/SSL data encryptions, and <a href = "https://www.pubnub.com/docs/web-javascript/pam-security">Access Manager</a> so you can control users and devices.
 
 [See more info on PubNub.com](https://www.pubnub.com/products/security-overview/)!
 
