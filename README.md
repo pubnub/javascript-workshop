@@ -6,7 +6,7 @@ This provides step-by-step tutorials of building realtime web applications using
 
 You will be learning how to write simple applications using PubNub JavaScript SDK 3.x.
 
-🍄 [Presentation Link]()
+🍄 [Presentation Slides Link](https://docs.google.com/presentation/d/17bwoGWTYEz9Q0hhA1ezmzjQ_iFo4AEp9gm0bGyryuC0/edit#slide=id.p)
 
 ## Getting Started with PubNub
 
@@ -40,13 +40,13 @@ Now, let's get started!
 
 ## Projects
 
-- 1 - [Building a Super Simple Chat Room](01-chatroom) 
+- 1 - 💬 [Building a Super Simple Chat Room](01-chatroom) 
 
 
-- 1a - [Adding the 3rd party API - Enabling Giphy commands](01a-chatroom-giphy)
+- 1a - 😹 [Adding the 3rd party API - Enabling Giphy commands](01a-chatroom-giphy)
 
 
-- 2 - [Internet of Things: Creating a HUE Clone"](02-iot)
+- 2 - 💡 [Internet of Things: Creating a HUE Clone](02-iot)
 
 
 

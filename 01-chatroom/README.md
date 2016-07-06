@@ -226,7 +226,13 @@ pubnub.subscribe({
 
 At the success callback, you are inserting a new DOM with the received message. Here, you should notice `m.text.replace()` to strip off any HTML tags. If you have time, modify this part to make some smarter text replacing scheme.
 
-## Extras
+Now try your app! http://localhost:8001/01-chatroom/
+
+You should see your classmates' messages!
+
+
+
+## Adding Extra Features
 
 PubNub provide more good features including [Presence](https://www.pubnub.com/docs/web-javascript/presence) and [Storage & Playback (History API)](https://www.pubnub.com/docs/web-javascript/storage-and-history).
 
@@ -247,7 +253,7 @@ and press **Save**.
 Modify your subscribe block, and add `presence` param:
 
 ```javascript
-p.subscribe({
+pubnub.subscribe({
   channel: channel,
   callback: function(m) {
     output.innerHTML = '<p><i class="' + m.avatar + '"></i><span>' + m.text.replace(/[<>]/ig, '') + '</span></p>' + output.innerHTML;
