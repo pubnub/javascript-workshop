@@ -1,4 +1,4 @@
-# Workshop: Building Realtime Apps with PubNub JavaScrpt SDK
+# Workshop: Building Realtime Apps with PubNub JavaScript SDK
 
 This provides step-by-step tutorials of building realtime web applications using PubNub global data stream network.
 
